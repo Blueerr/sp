@@ -119,8 +119,6 @@ function initSearchBar() {
   searchInput.value = "";
 }
 
-}
-
 function buildMenu() {
   var newMenu = "";
   var accent = "";
