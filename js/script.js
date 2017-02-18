@@ -53,7 +53,7 @@ var linkMenu = [
   ["BakaBT",                   "",""],
   
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
-  ["YouTube",                  "https://www.youtube.com/",]
+  ["YouTube",                  "",""]
   ["Facebook",                 "",""],
   ["Reddit",                   "",""],
   ["Twitch",                   "",""],
