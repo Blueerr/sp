@@ -53,7 +53,7 @@ var linkMenu = [
   ["BakaBT",                   "",""],
   
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
-  ["YouTube",                  "",""]
+  ["YouTube",                  "",""],
   ["Facebook",                 "",""],
   ["Reddit",                   "",""],
   ["Twitch",                   "",""],
@@ -98,8 +98,9 @@ var notesTextarea = $('notesInput');
 
 function init() {
   initSearchBar();
+  buildDate();
   buildMenu();
-  $('body').style.opacity =1;
+  $('body').style.opacity = 1;
   $('mainContainer').style.opacity = 1;
   $('dateContainer').style.opacity = 1;
   $('notesWidget').style.opacity = 1;
@@ -117,6 +118,19 @@ function initSearchBar() {
   document.addEventListener('keydown', function(event) { handleKeydown(event); });
   
   searchInput.value = "";
+}
+
+function buildDate() {
+  var today = new Date();
+  dateDiv.innerHTML = "<font class=\"font-3em\">" +
+                      monthNames[today.getMonth()] + 
+                      " " + 
+                      today.getDate() + 
+                      "</font><br><font>" + 
+                      dayNames[today.getDay()] + 
+                      ", " + 
+                      today.getFullYear() +
+                      "</font>";
 }
 
 function buildMenu() {
@@ -264,4 +278,3 @@ function CanSetCookies() {
 }
 function DelCookie(name) {
     document.cookie = fr.client.CookieBase + name + '=0; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-}
