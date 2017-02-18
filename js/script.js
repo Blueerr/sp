@@ -100,7 +100,7 @@ function init() {
   initSearchBar();
   buildDate();
   buildMenu();
-  $('body').style.opacity = 0
+  $('body').style.opacity = 1;
   $('mainContainer').style.opacity = 1;
   $('dateContainer').style.opacity = 1;
   $('notesWidget').style.opacity = 1;
