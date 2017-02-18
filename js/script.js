@@ -52,7 +52,7 @@ var linkMenu = [
   ["Nyaa Tracker",             "",""],
   ["BakaBT",                   "",""],
   
-  [svgSocial,                  "green",                                       "Media"], // Media
+  [svgSocial,                  "green",                                       "-HEAD-"], // Media
   ["YouTube",                  "https://www.youtube.com/",]
   ["Facebook",                 "",""],
   ["Reddit",                   "",""],
