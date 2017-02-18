@@ -52,8 +52,8 @@ var linkMenu = [
   ["Nyaa Tracker",             "",""],
   ["BakaBT",                   "",""],
   
-  [svgSocial,                  "green",                                       "-HEAD-"], // Media
-  ["YouTube",                  "https://www.youtube.com/"," Youtube"],
+  [svgSocial,                  "green",                                       "Media"], // Media
+  ["YouTube",                  "https://www.youtube.com/","Youtube"]
   ["Facebook",                 "",""],
   ["Reddit",                   "",""],
   ["Twitch",                   "",""],
